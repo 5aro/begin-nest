@@ -23,4 +23,7 @@ export class UsersService {
   remove(id: number) {
     return `This action removes a #${id} user`;
   }
+  deleteUserMemo(memoId: string) {
+    return `This action removes a #${memoId} user`;
+  }
 }
